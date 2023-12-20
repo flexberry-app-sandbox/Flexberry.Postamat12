@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Логистика",
+      "projection": "ЛогистикаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ключ",
+      "projection": "КлючL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Пользователь",
+      "projection": "ПользовательL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Посылка",
+  "name": "IISPostamat12ПосылкаE",
+  "className": "ПосылкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat12-посылка",
+      "modelProjection": "ПосылкаE"
+    }
+  ]
+}

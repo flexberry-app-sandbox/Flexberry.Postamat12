@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Ячейка",
+  "name": "IISPostamat12ЯчейкаE",
+  "className": "ЯчейкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat12-ячейка",
+      "modelProjection": "ЯчейкаE"
+    }
+  ]
+}

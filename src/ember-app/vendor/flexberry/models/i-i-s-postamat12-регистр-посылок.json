@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISPostamat12РегистрПосылок",
+  "modelName": "i-i-s-postamat12-регистр-посылок",
+  "className": "РегистрПосылок",
+  "nameSpace": "IIS.Postamat12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "посылка",
+      "relatedTo": "i-i-s-postamat12-посылка",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "хранение",
+      "relatedTo": "i-i-s-postamat12-хранение",
+      "inverse": "регистрПосылок"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрПосылокE",
+      "modelName": "i-i-s-postamat12-регистр-посылок",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Посылка",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Посылка",
+          "name": "посылка",
+          "relatedTo": "i-i-s-postamat12-посылка",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

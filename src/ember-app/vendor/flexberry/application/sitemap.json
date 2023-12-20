@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Postamat12",
+  "applicationTitle": "Postamat12",
+  "items": [
+    {
+      "link": null,
+      "menuName": "postamat12",
+      "caption": "Postamat12",
+      "title": "Postamat12",
+      "children": [
+        {
+          "link": "i-i-s-postamat12-ячейка-l",
+          "menuName": null,
+          "caption": "Ячейка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-посылка-l",
+          "menuName": null,
+          "caption": "Посылка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-логистика-l",
+          "menuName": null,
+          "caption": "Логистика",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-ключ-l",
+          "menuName": null,
+          "caption": "Ключ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-хранение-l",
+          "menuName": null,
+          "caption": "Хранение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat12-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
